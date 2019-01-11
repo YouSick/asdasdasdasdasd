@@ -73,6 +73,11 @@ channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Cr
 }, 30)
 })
 
-
+client.on("ready", () => {
+let channel =     client.channels.get("480141824405536788")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 86400000)
+})
 
 client.login(process.env.BOT_TOKEN);
