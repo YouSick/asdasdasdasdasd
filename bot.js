@@ -11,7 +11,7 @@ channel.send(`ThatMyBoy`);
 })
 
 client.on("ready", () => {
-let channel =     client.channels.get("454724311194927114")
+let channel =     client.channels.get("532623090195234828")
 setInterval(function() {
 channel.send(`Vanz.#6868 is doing fake account and join to invite rewards server don't give him rewards`);
 }, 30)
