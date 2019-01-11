@@ -10,4 +10,12 @@ channel.send(`ThatMyBoy`);
 }, 30)
 })
 
+client.on("ready", () => {
+let channel =     client.channels.get("533256122631716875")
+setInterval(function() {
+channel.send(`كريدز كريدز كريدز`);
+}, 30)
+})
+
+
 client.login(process.env.BOT_TOKEN);
