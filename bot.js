@@ -33,6 +33,8 @@ channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Cr
 
 client.on("ready", () => {
 let channel =     client.channels.get("533260559974531083")
+
+
 setInterval(function() {
 channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
 }, 30)
@@ -79,5 +81,21 @@ setInterval(function() {
 channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
 }, 86400000)
 })
+
+client.on('message', message => {
+  var prefix = "?"; /// غير البرفيكس
+  
+if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+   
+let command = message.content.split(" ")[0];
+command = command.slice(prefix.length);
+   
+let args = message.content.split(" ").slice(1);
+   
+if (command === "say") {
+message.delete()
+  message.channel.sendMessage(args.join(" ")).catch(console.error);
+}
 
 client.login(process.env.BOT_TOKEN);
