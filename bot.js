@@ -6,16 +6,57 @@ console.log("Scrpit By Dream");
 client.on("ready", () => {
 let channel =     client.channels.get("480165666142420992")
 setInterval(function() {
-channel.send(`ThatMyBoy`);
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
 }, 30)
 })
 
 client.on("ready", () => {
 let channel =     client.channels.get("533256122631716875")
 setInterval(function() {
-channel.send(`Vanz.#6868 is doing fake account and join to invite rewards server don't give him rewards`);
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
 }, 30)
 })
 
+client.on("ready", () => {
+let channel =     client.channels.get("533260499853377556")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 30)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("533260519864401921")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 30)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("533260559974531083")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 30)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("533260603813527572")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 30)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("533260623040217088")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 30)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("533265336783601674")
+setInterval(function() {
+channel.send(`Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits Credits `);
+}, 30)
+})
 
 client.login(process.env.BOT_TOKEN);
